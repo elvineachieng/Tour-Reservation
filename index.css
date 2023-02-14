@@ -119,7 +119,7 @@ margin-bottom: 4em;
 /* SIDEBAR */
 .sidebar{
   background-color: blue !important;
-  width: 10vw !important;
+  width: 8vw !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
