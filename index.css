@@ -30,5 +30,5 @@ header{
   flex-direction: column !important;
 }
 header *{
-
+  margin-bottom: var(--child-margin-bottom);
 }
