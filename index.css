@@ -41,4 +41,5 @@ header > *{
  padding: var(--paddin-rounded);
 }
 .header__secton--1 > h1{
+  text-shadow: .1rem 0 .2rem black !important;
 }
