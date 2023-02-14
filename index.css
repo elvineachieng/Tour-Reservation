@@ -43,9 +43,9 @@ header > *{
 }
 .header__secton--1 > h1{
   text-shadow: .1rem 0 .2rem black !important;
-  color: #fff !important;
+  color: var(--primary-color) !important;
 }
 .header__secton--1 > .accounts > i{
-  color: ;
+  color: var(--primary-color);
 }
   
