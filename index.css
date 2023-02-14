@@ -69,6 +69,6 @@ background-color: var(--primary-color);
 }
 .menus > ul > li > a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--primary-text-color);
   font-size: var(--small-fontsize);
 }
