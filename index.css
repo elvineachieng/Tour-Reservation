@@ -120,6 +120,7 @@ margin-bottom: 4em;
   background-color: blue !important;
   width: 10vw !important;
   display: flex !important;
+  flex-direction: column !important;
   align-items: center !important;
   justify-content: center !important;
 }
