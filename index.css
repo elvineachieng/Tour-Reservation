@@ -90,7 +90,7 @@ margin-bottom: 4em;
 
 /* HOMEPAGE */
 .homepage {
-  height: 76vh;
+  height: 78vh;
   background-image: linear-gradient(to bottom, rgba(2, 0, 0, 0.911), rgba(0, 0, 0, 0.865)), url('./images/hmpg-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
