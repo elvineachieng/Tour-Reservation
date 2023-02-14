@@ -46,7 +46,6 @@ header > *{
  background-color: black;
 }
 .header__secton--1 > h1{
-  text-shadow: .1rem 0 .2rem black !important;
   color: var(--primary-color) !important;
 }
 .header__secton--1 > .accounts > i{
@@ -55,7 +54,6 @@ header > *{
 }
 /* STYLYING MENUS */
 .menus {
-background-color: red;
 padding-inline: var(--parent-inline-padding);
 margin-top: -1.6rem;
 }
