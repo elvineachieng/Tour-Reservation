@@ -119,6 +119,7 @@ margin-bottom: 4em;
 .sidebar{
   background-color: blue !important;
   width: 10vw !important;
+  display: flex !important;
   align-items: center !important;
   justify-content: center !important;
 }
