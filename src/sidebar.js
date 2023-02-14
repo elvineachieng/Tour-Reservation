@@ -1,2 +1,2 @@
-const acountIcon = document.querySelector('div.acount > i');
+const acountIcon = document.querySelector('div.accounts > i');
 console.log(acountIcon);
