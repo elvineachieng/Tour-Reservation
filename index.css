@@ -43,6 +43,7 @@ header > *{
  display: grid !important;
  grid-template-columns: 11fr 1fr !important;
  padding: var(--paddin-rounded);
+ background-color: black;
 }
 .header__secton--1 > h1{
   text-shadow: .1rem 0 .2rem black !important;
@@ -56,6 +57,7 @@ header > *{
 .menus {
 background-color: red;
 padding-inline: var(--parent-inline-padding);
+margin-top: -.8rem;
 }
 .menus > ul {
   display: flex;
