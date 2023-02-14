@@ -1,6 +1,7 @@
 /* VARIABLES */
 :root{
   --parent-inline-padding: .8rem !important;
+  --child-margin-bottom: 1.2rem !important;
 }
 html{
   font-size: 100%;
@@ -27,4 +28,7 @@ header{
 header{
   display: flex !important;
   flex-direction: column !important;
+}
+header *{
+
 }
