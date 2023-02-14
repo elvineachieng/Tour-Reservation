@@ -61,9 +61,12 @@ margin-top: -1.6rem;
 .menus > ul {
   display: flex !important;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .menus > ul > li {
  list-style: none;
+ 
 }
 .menus > ul > li > a {
   text-decoration: none;
