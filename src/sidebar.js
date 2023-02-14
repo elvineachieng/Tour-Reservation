@@ -1,2 +1,4 @@
 const acountIcon = document.querySelector('div.accounts > i');
-console.log(acountIcon);
+acountIcon.addEventListener('click', () =>{
+    
+})
