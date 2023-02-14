@@ -4,6 +4,9 @@
   --child-margin-bottom: 1.2rem !important;
   --paddin-rounded: 2rem !important;
   --primary-color: #fff;
+  --medium-fontsize: 2rem !important;
+  --small-fontsize: 1rem !important;
+  --large-fontsize: 3rem !important;
 }
 html{
   font-size: 100%;
