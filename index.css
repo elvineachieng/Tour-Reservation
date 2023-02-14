@@ -90,5 +90,5 @@ margin-top: -1.6rem;
 /* HOMEPAGE */
 .homepage {
   height: 74vh;
-  background-image: linear-gradient(to bottom, var(--secondary-color), var(--secodanry-color);
+  background-image: linear-gradient(to bottom, var(--secondary-color), var(--secodanry-color));
 }
