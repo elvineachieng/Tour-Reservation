@@ -94,6 +94,12 @@ margin-top: -1.6rem;
   background-size: cover;
   background-repeat: no-repeat;
 }
+.homepage > h1 {
+  font-size: var(--large-fontsize);
+}
+.homepage > p {
+  font-size: var(--small-fontsize);
+}
 .homepage *{
-
+  color: var(--primary-color);
 }
