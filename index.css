@@ -116,6 +116,10 @@ margin-bottom: 4em;
 }
 
 /* SIDEBAR */
+.sidebar{
+  background-color: blue !important;
+  width: 10vw !important;
+}
 .sign-up {
   background-color: blueviolet;
   ;
