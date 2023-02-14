@@ -16,3 +16,6 @@ margin: 0;
 font-family: inherit !important;
 }
 /* HEADER STYLES */
+header{
+  background-color: hsl(240, 38%, 47%);
+}
