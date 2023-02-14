@@ -37,6 +37,8 @@ header > *{
 /* HEADER ITEMS */
 .header__secton--1{
  display: grid !important;
- grid-template-columns: 6fr 1fr !important;
+ grid-template-columns: 11fr 1fr !important;
  padding: var(--paddin-rounded);
+}
+.header__secton--1 > h1{
 }
