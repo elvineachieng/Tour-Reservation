@@ -117,6 +117,9 @@ margin-bottom: 4em;
 }
 
 /* SIDEBAR */
+.hide-sidebar{
+  display: none;
+}
 .sidebar{
   background-color: var(--primary-color);
   width: 8vw !important;
