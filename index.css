@@ -3,6 +3,7 @@
   --parent-inline-padding: .8rem !important;
   --child-margin-bottom: 1.2rem !important;
   --paddin-rounded: 2rem !important;
+  --primary-color: #fff;
 }
 html{
   font-size: 100%;
@@ -42,8 +43,9 @@ header > *{
 }
 .header__secton--1 > h1{
   text-shadow: .1rem 0 .2rem black !important;
+  color: #fff !important;
 }
-.header__secton--1 > .accounts{
-  /* background-color: black; */
+.header__secton--1 > .accounts > i{
+  color: ;
 }
   
