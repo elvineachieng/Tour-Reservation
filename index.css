@@ -95,6 +95,8 @@ margin-top: -1.6rem;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .homepage > h1 {
   font-size: var(--large-fontsize);
