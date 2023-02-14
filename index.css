@@ -59,8 +59,8 @@ padding-inline: var(--parent-inline-padding);
 margin-top: -1.6rem;
 }
 .menus > ul {
-  display: grid !important;
-  grid-template-columns: .5fr .5fr .5fr;
+  display: flex !important;
+  flex-direction: column;
 }
 .menus > ul > li {
  list-style: none;
