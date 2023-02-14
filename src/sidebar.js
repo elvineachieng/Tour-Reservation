@@ -1,0 +1,1 @@
+const acountIcon = document.querySelector('.acount-icon');
