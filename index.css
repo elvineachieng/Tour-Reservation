@@ -100,9 +100,11 @@ margin-top: -1.6rem;
 }
 .homepage > h1 {
   font-size: var(--large-fontsize);
+  margin-bottom: var(--child-margin-bottom);
 }
 .homepage > p {
   font-size: var(--small-fontsize);
+  width: 50vw;
 }
 .homepage *{
   color: var(--primary-color);
