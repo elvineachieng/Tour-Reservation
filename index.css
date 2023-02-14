@@ -53,6 +53,7 @@ header > *{
 .header__secton--1 > .accounts > i{
   color: var(--primary-color);
   box-shadow: .1rem .1rem .2rem .4rem rgba(0, 0, 0, 0.08) !important;
+  cursor: pointer !important;
 }
 /* STYLYING MENUS */
 .menus {
