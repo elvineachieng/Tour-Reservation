@@ -44,6 +44,6 @@ header > *{
   text-shadow: .1rem 0 .2rem black !important;
 }
 .header__secton--1 > .accounts{
-  background-color: black;
+  /* background-color: black; */
 }
-  .
+  
