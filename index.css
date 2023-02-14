@@ -19,3 +19,6 @@ font-family: inherit !important;
 header{
   background-color: hsl(240, 38%, 47%);
 }
+header *{
+  display: flex !important;
+}
