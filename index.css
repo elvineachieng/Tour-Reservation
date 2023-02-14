@@ -60,7 +60,7 @@ padding-inline: var(--parent-inline-padding);
 .menus > ul {
   display: flex;
   flex-direction: row;
-  
+  justify-content: space-around;
 }
 .menus > ul > li {
  list-style: none;
