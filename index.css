@@ -58,7 +58,9 @@ background-color: red;
 padding-inline: var(--parent-inline-padding);
 }
 .menus > ul {
-
+  display: flex;
+  flex-direction: row;
+  
 }
 .menus > ul > li {
  list-style: none;
