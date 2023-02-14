@@ -90,5 +90,5 @@ margin-top: -1.6rem;
 /* HOMEPAGE */
 .homepage {
   height: 76vh;
-  background-image: linear-gradient(to bottom, green, green);
+  background-image: linear-gradient(to bottom, rgba(0, 128, 0, 0.18), rgba(0, 128, 0, 0.167)), url('./images/hmpg-bg.jpg');
 }
