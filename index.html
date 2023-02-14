@@ -1,80 +1,85 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <title>Modern Tours</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,400&family=Roboto:wght@100&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./index.css">
-</head>
-<body>
-  <!-- START OF HEADER -->
-  <header>
-    <div class="header__secton--1">
-      <h1>Modern Tours</h1>
-      <div class="accounts">
-        <i class="fas fab-user"></i>
+  <head>
+    <title>Modern Tours</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,400&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+  </head>
+  <body>
+    <!-- START OF HEADER -->
+    <header>
+      <div class="header__secton--1">
+        <h1>Modern Tours</h1>
+        <div class="accounts">
+          <i class="fas fab-user"></i>
+        </div>
       </div>
-    </div>
-    <nav>
+      <nav>
+        <ul>
+          <li><a href="#available-tours">Available Tours</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- END OF HEADERS -->
+    <!-- START OF MAIN -->
+    <main>
+      <section class="homepage">
+        <h1>Welcome to To Modern Tours</h1>
+        <p>
+          We offer a wide range of tours to some of the most beautiful
+          destinations in the world. Browse through our available tours and make
+          a reservation today.
+        </p>
+      </section>
+      <h3 id="available-tours">Available Tours</h3>
       <ul>
-        <li><a href="#available-tours">Available Tours</a></li>
-        <li><a href="#about-us">About Us</a></li>
-        <li><a href="#contact-us">Contact Us</a></li>
+        <li>Maasai Mara Adventure</li>
+        <li>Lake Bogoria Adventure</li>
+        <li>Lake Naivasha</li>
+        <li>Coastal Kenya Adventure</li>
       </ul>
-    </nav>
-  </header>
-  <!-- END OF HEADERS -->
-  <!-- START OF MAIN -->
-  <main>
-    <section class="homepage">
-      <h1>Welcome to To Modern Tours</h1>
+      <section class="sign-up">
+        <h1>Sign Up to Book Online Reservations</h1>
+        <form action="submit-signup.php" method="post">
+          <label for="name">First Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="name">Last Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+
+          <input type="submit" value="Sign Up" />
+        </form>
+      </section>
+      <a href="reservation.html">Make a Reservation</a>
+      <h3 id="about-us">About Us</h3>
       <p>
-        We offer a wide range of tours to some of the most 
-        beautiful destinations in the world. Browse through 
-        our available tours and make a reservation today.
+        We are a team of travel enthusiasts who are dedicated to providing our
+        customers with the best tour experiences. Our tours are carefully
+        curated to showcase the beauty and diversity of the world.
       </p>
-    </section>
-    <h3 id="available-tours">Available Tours</h3>
-    <ul>
-      <li>Maasai Mara Adventure</li>
-      <li>Lake Bogoria Adventure</li>
-      <li>Lake Naivasha</li>
-      <li>Coastal Kenya Adventure</li>
-    </ul>
-    <section class="sign-up">
-      <h1>Sign Up to Book Online Reservations</h1>
-      <form action="submit-signup.php" method="post">
-        <label for="name">First Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="name">Last Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-
-        <input type="submit" value="Sign Up">
-      </form>
-    </section>
-    <a href="reservation.html">Make a Reservation</a>
-    <h3 id="about-us">About Us</h3>
-    <p>We are a team of travel enthusiasts who are dedicated to providing our customers with the best tour experiences.
-      Our tours are carefully curated to showcase the beauty and diversity of the world.</p>
-    <h3 id="contact-us">Contact Us</h3>
-    <p>For any questions or inquiries, please feel free to contact us at contact@moderntours.com or by phone at
-     0798611007.</p>
-  </main>
-  <aside>
-
-  </aside>
-  <footer>
-    <p>Copyright ©2023 Modern Tours</p>
-  </footer>
-</body>
-
+      <h3 id="contact-us">Contact Us</h3>
+      <p>
+        For any questions or inquiries, please feel free to contact us at
+        contact@moderntours.com or by phone at 0798611007.
+      </p>
+    </main>
+    <aside></aside>
+    <footer>
+      <p>Copyright ©2023 Modern Tours</p>
+    </footer>
+  </body>
 </html>
