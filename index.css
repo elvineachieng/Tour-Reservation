@@ -1,5 +1,7 @@
 /* VARIABLES */
-
+:root{
+  --parent-inline-padding: 4rem !important;
+}
 html{
   font-size: 100%;
   box-sizing: border-box;
