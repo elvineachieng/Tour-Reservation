@@ -68,5 +68,6 @@ margin-top: -1.6rem;
 }
 .menus > ul > li > a {
   text-decoration: none;
+  color: var(--primary-color);
   font-size: var(--small-fontsize);
 }
