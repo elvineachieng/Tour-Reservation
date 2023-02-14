@@ -24,7 +24,7 @@ header{
   background-color: hsl(240, 63%, 45%);
   padding-inline: var(--parent-inline-padding);
 }
-header *{
+header{
   display: flex !important;
-  flex-direction: column;
+  flex-direction: column !important;
 }
