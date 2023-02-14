@@ -26,6 +26,7 @@ body{
 padding: 0;
 margin: 0;
 font-family: inherit !important;
+position: relative;
 }
 /* HEADER STYLES */
 header{
