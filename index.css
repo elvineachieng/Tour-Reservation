@@ -2,6 +2,7 @@
 :root{
   --parent-inline-padding: .8rem !important;
   --child-margin-bottom: 1.2rem !important;
+  --paddin-rounded: 2rem !important;
 }
 html{
   font-size: 100%;
