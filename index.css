@@ -59,7 +59,8 @@ padding-inline: var(--parent-inline-padding);
 margin-top: -1.6rem;
 }
 .menus > ul {
-  display: flex;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr;
   flex-direction: row;
   justify-content: space-around;
 }
