@@ -58,9 +58,11 @@
       </ul>
       <section class="sign-up">
         <h1>Sign Up to Book Online Reservations</h1>
-        <form action="submit-signup.php" method="post">
-          <label for="name">First Name:</label>
-          <input type="text" id="name" name="name" required />
+        <form action="submit-signup.php" method="post" novalidate>
+          <div class="form-group">
+            <label for="name">First Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
 
           <label for="name">Last Name:</label>
           <input type="text" id="name" name="name" required />
