@@ -104,6 +104,7 @@ margin-top: -1.6rem;
 }
 .homepage > p {
   font-size: var(--small-fontsize);
+  line-height: 2;
   width: 50vw;
 }
 .homepage *{
