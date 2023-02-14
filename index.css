@@ -22,6 +22,7 @@ font-family: inherit !important;
 /* HEADER STYLES */
 header{
   background-color: hsl(240, 38%, 47%);
+  padding-inline: var(--parent-inline-padding);
 }
 header *{
   display: flex !important;
