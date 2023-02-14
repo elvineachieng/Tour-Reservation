@@ -21,4 +21,5 @@ header{
 }
 header *{
   display: flex !important;
+  flex-direction: column;
 }
