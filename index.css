@@ -79,6 +79,6 @@ margin-top: -1.6rem;
 }
 .menus > ul > li > a:active {
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-size: var(--small-fontsize);
 }
