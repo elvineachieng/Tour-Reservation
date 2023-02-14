@@ -64,6 +64,9 @@ margin-top: -1.6rem;
   justify-content: center;
   align-items: center;
 }
+..menus > ul:nth-child(2){
+  padding-inline: 2rem !important;
+}
 .menus > ul > li {
  list-style: none;
  
