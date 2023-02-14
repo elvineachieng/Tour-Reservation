@@ -119,6 +119,8 @@ margin-bottom: 4em;
 .sidebar{
   background-color: blue !important;
   width: 10vw !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 .sign-up {
   background-color: blueviolet;
