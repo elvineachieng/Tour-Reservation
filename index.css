@@ -29,6 +29,6 @@ header{
   display: flex !important;
   flex-direction: column !important;
 }
-header *{
+header > *{
   margin-bottom: var(--child-margin-bottom);
 }
