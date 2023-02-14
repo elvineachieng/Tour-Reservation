@@ -54,7 +54,8 @@ header > *{
 }
 /* STYLYING MENUS */
 .menus {
-
+background-color: red;
+padding-inline: var(--parent-inline-padding);
 }
 .menus > ul {
 
