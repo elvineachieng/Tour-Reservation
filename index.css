@@ -50,3 +50,15 @@ header > *{
   box-shadow: .1rem .1rem .2rem .4rem rgba(0, 0, 0, 0.08) !important;
 }
 /* STYLYING MENUS */
+.menus {
+
+}
+.menus > ul {
+
+}
+.menus > ul > li {
+ list-style: none;
+}
+.menus > ul > li > a {
+  text-decoration: none;
+}
