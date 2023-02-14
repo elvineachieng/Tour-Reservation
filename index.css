@@ -65,5 +65,5 @@ header > *{
 .menus > ul > li > a {
   text-decoration: none;
   color: var(--primary-color);
-  font-size: var(--medium-fontsize);
+  font-size: var(--small-fontsize);
 }
