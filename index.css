@@ -4,7 +4,8 @@
   --child-margin-bottom: 1.2rem !important;
   --paddin-rounded: 2rem !important;
   --primary-color: #fff;
-  --primary-text-color: #000
+  --primary-text-color: #000;
+  --secondary-color: #green
   --medium-fontsize: 2rem !important;
   --small-fontsize: 1rem !important;
   --large-fontsize: 3rem !important;
@@ -72,6 +73,11 @@ margin-top: -1.6rem;
  
 }
 .menus > ul > li > a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: var(--small-fontsize);
+}
+.menus > ul > li > a:active {
   text-decoration: none;
   color: var(--primary-color);
   font-size: var(--small-fontsize);
