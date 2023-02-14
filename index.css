@@ -60,9 +60,7 @@ margin-top: -1.6rem;
 }
 .menus > ul {
   display: grid !important;
-  grid-template-columns: 1fr 1fr 1fr;
-  flex-direction: row;
-  justify-content: space-around;
+  grid-template-columns: .5fr .5fr .5fr;
 }
 .menus > ul > li {
  list-style: none;
