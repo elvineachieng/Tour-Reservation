@@ -1,7 +1,8 @@
 html{
   font-size: 100%;
   box-sizing: border-box;
-  font-family: ;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 *{
   margin: 0;
