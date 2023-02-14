@@ -47,5 +47,6 @@ header > *{
 }
 .header__secton--1 > .accounts > i{
   color: var(--primary-color);
+  
 }
   
