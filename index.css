@@ -1,6 +1,6 @@
 /* VARIABLES */
 :root{
-  --parent-inline-padding: 4rem !important;
+  --parent-inline-padding: .8rem !important;
 }
 html{
   font-size: 100%;
@@ -21,7 +21,7 @@ font-family: inherit !important;
 }
 /* HEADER STYLES */
 header{
-  background-color: hsl(240, 38%, 47%);
+  background-color: hsl(240, 63%, 45%);
   padding-inline: var(--parent-inline-padding);
 }
 header *{
