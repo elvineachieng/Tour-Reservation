@@ -32,3 +32,8 @@ header{
 header > *{
   margin-bottom: var(--child-margin-bottom);
 }
+
+/* HEADER ITEMS */
+.logo-text {
+  
+}
