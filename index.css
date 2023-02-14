@@ -38,4 +38,5 @@ header > *{
 .header__secton--1{
  display: grid !important;
  grid-template-columns: 6fr 1fr !important;
+ padding: var(--paddin-rounded);
 }
