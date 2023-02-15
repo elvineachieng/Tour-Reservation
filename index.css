@@ -26,6 +26,7 @@ body{
 padding: 0;
 margin: 0;
 font-family: inherit !important;
+overflow-x: hidden;
 position: relative;
 }
 /* HEADER STYLES */
@@ -53,16 +54,22 @@ header > *{
 }
 .header__secton--1 > .accounts{
   cursor: pointer !important;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
 }
 .header__secton--1 > .accounts > i{
   color: var(--primary-color);
   box-shadow: .1rem .1rem .2rem .4rem rgba(0, 0, 0, 0.08) !important;
+  
 }
 /* STYLYING MENUS */
 .menus {
 padding-inline: var(--parent-inline-padding);
 margin-top: -5rem;
 margin-bottom: 4em;
+width: 80%;
 }
 .menus > ul {
   display: flex !important;
@@ -118,20 +125,23 @@ margin-bottom: 4em;
 
 /* SIDEBAR */
 .hide-sidebar{
-  display: none;
-}
-.sidebar{
   background-color: var(--primary-color);
-  width: 8vw !important;
+  width: 20% !important;
+  height: 400px;
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
-  justify-content: center !important;
+  justify-content: space-evenly !important;
   padding:2rem 0;
   /* margin: 0 0 0 auto !important; */
   position: absolute;
   top: 8% !important;
-  right: 8%;
+  left: 100%;
+  transition: left .5s ease;
+  
+}
+.aside-active{
+  left: 80%;
 }
 .sign-up {
   background-color: blueviolet;
