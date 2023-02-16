@@ -9,7 +9,7 @@ form.addEventListener('submit', (event) =>{
     fetch('http://localhost:3500/admin/login', {
         method: 'POST',
         body: JSON.stringify(newAdminObject),
-        header
+        headers: { 'Content-Type': 'application/json'}
     })
     console.log(newAdminObject);
 });
