@@ -11,5 +11,8 @@ form.addEventListener('submit', (event) =>{
         body: JSON.stringify(newAdminObject),
         headers: { 'Content-Type': 'application/json'}
     })
-    console.log(newAdminObject);
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+    })
 });
