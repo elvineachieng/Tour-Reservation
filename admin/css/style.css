@@ -1,3 +1,6 @@
 .admin__sidebar{
     background-color: hsl(215, 70%, 16%);
 }
+.admin__sidebar *{
+    color: #fff;
+}
