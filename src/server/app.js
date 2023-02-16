@@ -24,7 +24,8 @@ const db = pool.promise();
 //ENDPOINTS
 const admin = express.Router();
 admin.post('/login', (req, res) => {
-    
+    const sql = 
+    `SELECT * FROM admin WHERE username='${req.body.username}'`;
     console.log(req.body);
     res.json(req.body);
 })
