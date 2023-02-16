@@ -24,7 +24,7 @@ const db = pool.promise();
 
 //ENDPOINTS
 const admin = express.Router();
-admin.post('/login', (req, res) => {
+admin.post('/login', (req, res, next) => {
     const sql = 
     `SELECT * FROM admin WHERE username='${req.body.username}'`;
     db.query(sql)
@@ -39,7 +39,7 @@ admin.post('/login', (req, res) => {
                 error: 'Invalid password',
             });
         };
-        
+
     })
     .catch(err => {
         res.status(404).json({
