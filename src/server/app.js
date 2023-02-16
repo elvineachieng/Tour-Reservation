@@ -24,6 +24,7 @@ const db = pool.promise();
 //ENDPOINTS
 const admin = express.Router();
 admin.post('/login', (req, res) => {
+    
     console.log(req.body);
     res.json(req.body);
 })
