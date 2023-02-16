@@ -21,6 +21,7 @@ html{
   padding: 0;
   box-sizing: inherit !important;
   color: hsl(0, 0%, 0%);
+  scroll-behavior: smooth;
 }
 body{
 padding: 0;
@@ -144,6 +145,16 @@ width: 80%;
   left: 80%;
 }
 .sign-up {
+  position: absolute;
   background-color: blueviolet;
-  ;
+  bottom: 100%;
+  transition: bottom .5s ease;
+  
+}
+
+.sign-up.active{
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
