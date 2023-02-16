@@ -30,14 +30,14 @@ admin.post('/login', (req, res) => {
     db.query(sql)
     .then( rows => {
         console.log(rows);
+        res.json(rows);
     })
     .catch(err => {
         res.status(404).json({
             error: err.message,
         })
     })
-    console.log(req.body);
-    res.json(req.body);
+    //console.log(req.body);
 })
 
 app.use('/admin', admin);
