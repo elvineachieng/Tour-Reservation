@@ -24,4 +24,5 @@ body{
     width: 80% !important;
     margin-inline: auto !important;
     margin-bottom: 8% !important;
+    cursor: pointer;
 }
