@@ -17,6 +17,7 @@ const pool = mysql.createPool({
     password: '',
     database: 'trs',
     port: 3306,
-})
+});
+const db = pool.promise();
 
 app.listen(port);
