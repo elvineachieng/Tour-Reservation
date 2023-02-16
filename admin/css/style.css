@@ -1,5 +1,10 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
 .admin__sidebar{
     background-color: hsl(215, 70%, 16%);
+    width: 10vw;
 }
 .admin__sidebar *{
     color: #fff;
