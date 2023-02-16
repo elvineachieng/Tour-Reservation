@@ -41,7 +41,7 @@ admin.post('/login', (req, res, next) => {
         };
         res.status(200).json({
             statusText: 'login successful'
-        })
+        });
 
     })
     .catch(err => {
