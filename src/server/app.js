@@ -7,6 +7,7 @@ const app = express();
 
 //settings
 app.use(cors ());
+app.use(express.json());
 const port = 3500;
 
 
@@ -24,6 +25,7 @@ const db = pool.promise();
 const admin = express.Router();
 admin.post('/login', (req, res) => {
     console.log(req.body);
+    res.json(req.body);
 })
 
 app.use('/admin', admin);
