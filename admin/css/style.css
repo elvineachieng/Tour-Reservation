@@ -17,10 +17,11 @@ body{
 .admin__sidebar{
     background-color: hsl(215, 70%, 16%);
     width: 16vw;
+    padding: 4% 0;
 }
 .admin__sidebar *{
     color: #fff;
     width: 80% !important;
     margin-inline: auto !important;
-    margin-bottom: 4% !important;
+    margin-bottom: 8% !important;
 }
