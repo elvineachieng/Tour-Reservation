@@ -22,5 +22,6 @@ const db = pool.promise();
 
 //ENDPOINTS
 const admin = express.Router();
+admin.get('/admin/login', (req, res) => {})
 
 app.listen(port);
