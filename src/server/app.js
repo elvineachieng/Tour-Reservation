@@ -30,10 +30,15 @@ admin.post('/login', (req, res) => {
     db.query(sql)
     .then( rows => {
         if(rows[0].length < 1){
-            res.status(404).json({
+            return res.status(404).json({
                 error: 'Admin not found',
-            })
+            });
         };
+        if(rows[0][0].password !== req.body.password){
+            return res.status(404).json({
+                error: 'Invalid password',
+            });
+        }
     })
     .catch(err => {
         res.status(404).json({
