@@ -21,5 +21,6 @@ const pool = mysql.createPool({
 const db = pool.promise();
 
 //ENDPOINTS
+const admin = express.Router();
 
 app.listen(port);
