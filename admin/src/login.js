@@ -17,6 +17,6 @@ form.addEventListener('submit', (event) =>{
             console.log(data.error);
             return;
         }
-        return window.location.href = '../index.html';
+        return window.location.href = '../';
     })
 });
