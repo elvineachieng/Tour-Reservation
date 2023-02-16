@@ -29,7 +29,7 @@ admin.post('/login', (req, res) => {
     `SELECT * FROM admin WHERE username='${req.body.username}'`;
     db.query(sql)
     .then( rows => {
-        console.log(rows);
+        console.log(rows[0]);
         res.json(rows);
     })
     .catch(err => {
