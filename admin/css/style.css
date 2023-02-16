@@ -16,7 +16,7 @@ body{
 }
 .admin__sidebar{
     background-color: hsl(215, 70%, 16%);
-    width: 10vw;
+    width: 16vw;
 }
 .admin__sidebar *{
     color: #fff;
