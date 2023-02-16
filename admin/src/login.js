@@ -6,6 +6,10 @@ form.addEventListener('submit', (event) =>{
         username: formData.get('username'),
         password: formData.get('password'),
     };
-    fetch('http://localhost:3500/admin/login')
+    fetch('http://localhost:3500/admin/login', {
+        method: 'POST',
+        body: JSON.stringify(newAdminObject),
+        header
+    })
     console.log(newAdminObject);
 });
