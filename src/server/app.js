@@ -29,8 +29,8 @@ admin.post('/login', (req, res) => {
     `SELECT * FROM admin WHERE username='${req.body.username}'`;
     db.query(sql)
     .then( rows => {
-        console.log(rows[0]);
-        res.json(rows);
+        if(rows[0]);
+        res.json(rows[0]);
     })
     .catch(err => {
         res.status(404).json({
