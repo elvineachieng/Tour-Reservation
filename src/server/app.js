@@ -2,6 +2,7 @@
 const express = require('express');
 const cors = require('cors');
 const mysql = require('mysql2');
+const { request } = require('http');
 
 const app = express();
 
@@ -26,6 +27,15 @@ const admin = express.Router();
 admin.post('/login', (req, res) => {
     const sql = 
     `SELECT * FROM admin WHERE username='${req.body.username}'`;
+    db.query(sql)
+    .then( rows => {
+        console.log(rows);
+    })
+    .catch(err => {
+        res.status(404).json({
+            error: err.message,
+        })
+    })
     console.log(req.body);
     res.json(req.body);
 })
