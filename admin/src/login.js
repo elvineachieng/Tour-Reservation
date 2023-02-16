@@ -1,6 +1,11 @@
 const form = document.getElementById('loginForm');
 form.addEventListener('submit', (event) =>{
     event.preventDefault();
-    const formObject = Object.entries(new FormData(form));
-    console.log(formObject);
+    const formData = new FormData(form);
+    const newAdminObject = {
+        username: formData.get('username'),
+        password: formData.get('password'),
+    };
+    fetch('http://localhost:3500/admin/login')
+    console.log(newAdminObject);
 });
