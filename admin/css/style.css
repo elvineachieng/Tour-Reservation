@@ -20,7 +20,7 @@ body{
 }
 .admin__sidebar *{
     color: #fff;
-    background-color: red;
     width: 80% !important;
     margin-inline: auto !important;
+    margin-bottom: 4% !important;
 }
