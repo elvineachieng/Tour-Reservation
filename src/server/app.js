@@ -9,4 +9,12 @@ const app = express();
 app.use(cors ());
 const port = 3500;
 
+
+//DATABASE connection
+const pool = mysql.createPool({
+    host: 'localhost',
+    user: 'root',
+    password: ''
+})
+
 app.listen(port);
