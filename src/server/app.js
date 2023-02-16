@@ -38,7 +38,7 @@ admin.post('/login', (req, res) => {
             return res.status(404).json({
                 error: 'Invalid password',
             });
-        }
+        };
     })
     .catch(err => {
         res.status(404).json({
