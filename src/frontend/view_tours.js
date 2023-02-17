@@ -45,7 +45,7 @@ fetch('http://localhost:3500/admin/view_packages', {
         const bookButton = document.createElement('button');
         modifyButton.innerHTML = 'book now'
         modifyButton.setAttribute('type', 'button');
-        packageContainer.appendChild(modifyButton);
+        packageContainer.appendChild(bookButton);
         root.appendChild(packageContainer)
     });
     console.log(responseData);
