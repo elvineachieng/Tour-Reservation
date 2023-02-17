@@ -30,7 +30,6 @@ body{
 @media screen and (min-width:900px){
     .admin__sidebar{
         width: 20vw;
-        padding: 4% 0;
     }
 }
 .admin__sidebar *::first-letter{
