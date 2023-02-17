@@ -125,7 +125,6 @@ admin.post('/create_packages',(req, res) => {
                 });
             }
             res.status(201).json({
-                row:rows,
                 statusText: "package created successfully",
             });
         })
