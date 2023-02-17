@@ -94,11 +94,13 @@ admin.post('create_packages',(req, res) => {
     uploadImage((req, res, error) => {
         if(error instanceof multer.MulterError){
             return res.status(400).json({
-                error: error.message
+                error: error.message,
             });
         }
         else if (error){
-            return res.status(400).json({});
+            return res.status(400).json({
+                error: error.message,
+            });
         }
     })
     console.log(req.body);
