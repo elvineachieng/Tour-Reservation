@@ -1,65 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin | Packages</title>
-</head>
-<body>
+  </head>
+  <body>
     <header></header>
     <main>
-        <scetion id="createPackage">
-            <form id="createPackage">
-                <div class="forgroup">
-                    <label for="packageName">package name</label>
-                    <input type="text" id="packageName" required>
-                    <span></span>
-                </div>
-                <div class="forgroup">
-                    <label for="packageType">package type</label>
-                    <input type="text" id="packageType" required>
-                    <span></span>
-                </div>
-                <div class="forgroup">
-                    <label for="packageLocation">packae location</label>
-                    <input type="text" id="packageLocation" required>
-                    <span></span>
-                </div>
-                <div class="forgroup">
-                    <label for="packagePrice"> package price</label>
-                    <input type="text" id="packagePrice" required>
-                    <span></span>
-                </div>
-                <div class="forgroup">
-                    <label for="packageFeatures"> package features</label>
-                    <input type="text" id="packageFeatures" required>
-                    <span></span>
-                </div>
-                <div class="forgroup">
-                    <label for="packageDetails">package details</label>
-                    <textarea 
-                     id="packageDetails"
-                     cols="30"
-                     rows="10" 
-                     required
-                    > </textarea>
-                    <span></span>
-                </div>
-                <div class="forgroup">
-                    <label for="packageImage">packageImage</label>
-                    <input type="file" id="packageImage" required>
-                    <span></span>
-                </div>
-                <div class="forgroup">
-                    <button type="submit">create</button>
-                    <button type="reset">reset</button>
-                </div>
-
-            </form>
-        </scetion>
+      <scetion id="createPackage">
+        <form id="createPackage">
+          <div class="forgroup">
+            <label for="packageName">package name</label>
+            <input type="text" id="packageName" name="packageName" required />
+            <span></span>
+          </div>
+          <div class="forgroup">
+            <label for="packageType">package type</label>
+            <input type="text" id="packageType" required />
+            <span></span>
+          </div>
+          <div class="forgroup">
+            <label for="packageLocation">packae location</label>
+            <input type="text" id="packageLocation" required />
+            <span></span>
+          </div>
+          <div class="forgroup">
+            <label for="packagePrice"> package price</label>
+            <input type="text" id="packagePrice" required />
+            <span></span>
+          </div>
+          <div class="forgroup">
+            <label for="packageFeatures"> package features</label>
+            <input type="text" id="packageFeatures" required />
+            <span></span>
+          </div>
+          <div class="forgroup">
+            <label for="packageDetails">package details</label>
+            <textarea id="packageDetails" cols="30" rows="10" required>
+            </textarea>
+            <span></span>
+          </div>
+          <div class="forgroup">
+            <label for="packageImage">packageImage</label>
+            <input type="file" id="packageImage" required />
+            <span></span>
+          </div>
+          <div class="forgroup">
+            <button type="submit">create</button>
+            <button type="reset">reset</button>
+          </div>
+        </form>
+      </scetion>
     </main>
     <footer></footer>
     <script src="../src/create_package.js"></script>
-</body>
+  </body>
 </html>
