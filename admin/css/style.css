@@ -70,7 +70,7 @@ body{
 .menu__one:hover .one{
     position: absolute;
     top: 14%;
-    left: 84%;
+    left: 90%;
     display: block !important;
 }
 .menu__two:hover .two{
