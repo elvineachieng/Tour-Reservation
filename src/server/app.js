@@ -145,7 +145,7 @@ admin.get('/view_packages', (req, res) => {
     })
     .catch( (error) => {
         res.status(400).json({
-            
+            statusText: error.message,
         });
     });
 });
