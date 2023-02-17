@@ -41,6 +41,11 @@ fetch('http://localhost:3500/admin/view_packages', {
         const packageCreationDate = document.createElement('p');
         packageCreationDate.innerHTML = data.created_at;
         packageContainer.appendChild(packageCreationDate);
+
+        const modifyButton = document.createElement('button');
+        modifyButton.innerHTML = 'modify'
+        modifyButton.setAttribute('type', 'button');
+        packageContainer.appendChild(modifyButton);
         root.appendChild(packageContainer)
     });
     console.log(responseData);
