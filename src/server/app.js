@@ -102,8 +102,7 @@ admin.post('create_packages',(req, res) => {
                 error: error.message,
             });
         }
-    })
-    console.log(req.body);
+    });
 });
 
 app.use('/admin', admin);
