@@ -138,7 +138,11 @@ admin.post('/create_packages',(req, res) => {
 
 //ADMIN VIEW PACKAGES
 admin.get('/view_packages', (req, res) => {
-    const sql = ''
+    const sql = 'SELECT * FROM packages';
+    db.query(sql)
+    .then( (rows) => {
+        res.status(201).json({});
+    })
 });
 
 app.use('/admin', admin);
