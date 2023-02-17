@@ -12,6 +12,8 @@ app.use(express.json());
 const port = 3500;
 
 // IMAGE UPLOAD MIDDLEWARE:
+
+// Destination
 const multerStorage = multer.diskStorage( {
     destination: (req, file, cb) =>{
         cb (null, 'public/packages');
@@ -20,7 +22,10 @@ const multerStorage = multer.diskStorage( {
         const ext = file.mimetype.split('/')[1];
         cb (null, `${file.fieldname}_${Date.now()}.${ext}`)
     }
-})
+});
+
+// Filter extension
+
 
 //DATABASE connection
 const pool = mysql.createPool({
