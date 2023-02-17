@@ -120,6 +120,7 @@ admin.post('/create_packages',(req, res) => {
         db.query(sql, newPackage)
         .then( (rows) => {
             res.status(200).json({
+                row:rows,
                 message: "package created successfully",
             });
         })
