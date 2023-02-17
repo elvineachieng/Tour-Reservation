@@ -91,7 +91,7 @@ admin.post('/login', (req, res, next) => {
 
 // ADMIN CREATE PACKAGES:
 admin.post('create_packages',(req, res) => {
-    uploadImage(req, res, error => {
+    uploadImage((req, res, error) => {
         
     })
     console.log(req.body);
