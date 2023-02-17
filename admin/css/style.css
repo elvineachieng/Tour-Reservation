@@ -78,6 +78,11 @@ body{
 }
 .three{
     position: absolute;
-    top: 32%;
+    top: 36%;
+    left: 84%;
+}
+.four{
+    position: absolute;
+    top: 56%;
     left: 84%;
 }
