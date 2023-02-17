@@ -138,7 +138,7 @@ admin.post('/create_packages',(req, res) => {
 
 //ADMIN VIEW PACKAGES
 admin.get('/view_packages', (req, res) => {
-
+    const sql = ''
 });
 
 app.use('/admin', admin);
