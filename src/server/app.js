@@ -159,5 +159,9 @@ admin.get('/view_packages', (req, res) => {
 });
 
 app.use('/admin', admin);
-
+app.get('/', (req, res) => {
+    res.status(201).json({
+        responseText: 'Welcome to Tour Reservation Service API!',
+    });
+})
 app.listen(port);
