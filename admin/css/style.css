@@ -51,11 +51,9 @@ body{
     background-color: hsl(215, 91%, 29%);
     display: none !important;
     width: 30vw !important;
-    padding: .4rem;
 }
 .admin__sidebar--submenus > ul {
     margin: 0 !important;
-    padding: .2rem 0;
 }
 .admin__sidebar--submenus > ul > li {
     list-style-type: none;
