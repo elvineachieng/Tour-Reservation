@@ -90,7 +90,7 @@ admin.post('/login', (req, res, next) => {
 });
 
 // ADMIN CREATE PACKAGES:
-admin.post('create_packages',(req, res) => {
+admin.post('/create_packages',(req, res) => {
     uploadImage((req, res, error) => {
         if(error instanceof multer.MulterError){
             return res.status(400).json({
@@ -102,6 +102,7 @@ admin.post('create_packages',(req, res) => {
                 error: error.message,
             });
         }
+        console.log(req.body);
     });
 });
 
