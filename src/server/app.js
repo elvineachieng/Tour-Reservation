@@ -13,8 +13,11 @@ const port = 3500;
 
 // IMAGE UPLOAD MIDDLEWARE:
 const multerStorage = multer.diskStorage( {
-    destination: (req, res, cb) =>{
+    destination: (req, file, cb) =>{
         cb (null, 'public/packages');
+    },
+    filename: (req, file, cb) => {
+        
     }
 })
 
