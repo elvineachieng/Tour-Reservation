@@ -11,6 +11,8 @@ app.use(cors ());
 app.use(express.json());
 const port = 3500;
 
+// IMAGE UPLOAD MIDDLEWARE:
+
 
 //DATABASE connection
 const pool = mysql.createPool({
