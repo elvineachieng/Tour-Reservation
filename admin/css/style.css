@@ -34,7 +34,8 @@ body{
 }
 @media screen and (min-width:1140px){
     .admin__sidebar{
-        width: 20vw;
+        width: 14vw;
+        font-size: 1rem;
     }
 }
 .admin__sidebar *::first-letter{
