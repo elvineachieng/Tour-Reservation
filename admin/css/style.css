@@ -49,7 +49,7 @@ body{
 /* Sidebar submenus */
 .admin__sidebar--submenus {
     background-color: red;
-    width: 50vw !important;
+    width: 40vw !important;
     padding: .8rem;
 }
 .admin__sidebar--submenus > ul {
