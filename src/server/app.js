@@ -119,7 +119,7 @@ admin.post('/create_packages',(req, res) => {
         sql ='INSERT INTO packages SET?';
         db.query(sql, newPackage)
         .then( (rows) => {
-            res.status(200).json({
+            res.status(201).json({
                 row:rows,
                 message: "package created successfully",
             });
