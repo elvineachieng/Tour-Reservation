@@ -116,7 +116,7 @@ admin.post('/create_packages',(req, res) => {
             ...package,
             package_image: path
         };
-        
+        sql ='INSERT INTO packages SET?';
         console.log(newPackage);
     });
 });
