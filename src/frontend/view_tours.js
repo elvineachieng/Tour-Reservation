@@ -43,8 +43,8 @@ fetch('http://localhost:3500/admin/view_packages', {
         packageContainer.appendChild(packageCreationDate);
 
         const bookButton = document.createElement('button');
-        modifyButton.innerHTML = 'book now'
-        modifyButton.setAttribute('type', 'button');
+        bookButton.innerHTML = 'book now'
+        bookButton.setAttribute('type', 'button');
         packageContainer.appendChild(bookButton);
         root.appendChild(packageContainer)
     });
