@@ -36,6 +36,7 @@ const filterExtension = (req, file, cb) => {
     ){
         return cb (null, true);
     }
+    return cb (new Error("File type not supported!"), false);
 };
 
 //DATABASE connection
