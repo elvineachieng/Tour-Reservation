@@ -44,6 +44,7 @@ const upload = multer({
     storage: multerStorage,
     fileFilter: filterExtension
 });
+const uploadImage = upload.array('package_image', )
 
 
 //DATABASE connection
