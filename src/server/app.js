@@ -97,6 +97,9 @@ admin.post('create_packages',(req, res) => {
                 error: error.message
             });
         }
+        else if (error){
+            return res.status(400).json({});
+        }
     })
     console.log(req.body);
 });
