@@ -10,4 +10,6 @@ fetch('http:localhost:3500/admin/view_packages', {
 .then( (responseData) => {
     console.log(responseData);
 })
-.
+.catch ( (err) => {
+    console.log(err);
+})
