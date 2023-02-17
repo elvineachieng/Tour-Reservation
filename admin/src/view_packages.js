@@ -15,7 +15,7 @@ fetch('http://localhost:3500/admin/view_packages', {
         packageContainer.appendChild(packageImage);
 
         const packagePrice = document.createElement('p');
-        
+        packagePrice.innerHTML = data.package_price
         packageContainer.appendChild(packagePrice);
         root.appendChild(packageContainer)
     });
