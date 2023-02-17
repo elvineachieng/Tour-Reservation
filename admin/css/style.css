@@ -53,20 +53,16 @@ body{
     padding: .8rem;
 }
 .admin__sidebar--submenus > ul {
-    width: 100%;
-    background-color: aqua; 
     margin: 0 !important;
     padding: .2rem 0;
 }
 .admin__sidebar--submenus > ul > li {
     list-style-type: none;
-    background-color: #000;
     margin: 0 !important;
 }
 .admin__sidebar--submenus >ul > li > a {
     color: #000;
     text-decoration: none;
-    background-color: yellowgreen;
     margin: 0 !important;
 }
 /* position each submenu */
