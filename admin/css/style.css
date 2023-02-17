@@ -45,7 +45,9 @@ body{
 .admin__sidebar *:hover{
     text-decoration: underline;
 }
-
+.admin__sidebar--submenus{
+    display: none !important;
+}
 /* Sidebar submenus */
 .admin__sidebar--submenus {
     background-color: hsl(215, 91%, 29%);
