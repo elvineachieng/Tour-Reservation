@@ -29,8 +29,7 @@ body{
 }
 @media screen and (min-width:900px){
     .admin__sidebar{
-        background-color: hsl(215, 26%, 54%);
-        width: 25vw;
+        width: 20vw;
         padding: 4% 0;
     }
 }
