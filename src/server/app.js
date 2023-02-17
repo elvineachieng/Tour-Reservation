@@ -116,9 +116,7 @@ admin.post('/create_packages',(req, res) => {
             ...package,
             package_image: path
         }
-        console.log(packageID());
-        console.log(package);
-        console.log(path);
+        console.log(newPackage);
     });
 });
 
