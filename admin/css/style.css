@@ -52,7 +52,6 @@ body{
     background-color: hsl(215, 91%, 29%);
     display: none !important;
     width: 40vw !important;
-    transition: left 10s ease-in-out;
 }
 .admin__sidebar--submenus > ul {
     width: 80% !important;
