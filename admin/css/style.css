@@ -32,6 +32,11 @@ body{
         width: 20vw;
     }
 }
+@media screen and (min-width:1140px){
+    .admin__sidebar{
+        width: 20vw;
+    }
+}
 .admin__sidebar *::first-letter{
     text-transform: capitalize;
 }
