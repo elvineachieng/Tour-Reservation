@@ -56,7 +56,7 @@ admin.post('/login', (req, res, next) => {
 
 // ADMIN CREATE PACKAGES:
 admin.post('create_packages', (req, res) => {
-
+    console.log(req.body);
 });
 
 app.use('/admin', admin);
