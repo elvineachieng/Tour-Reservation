@@ -13,7 +13,9 @@ const port = 3500;
 
 // IMAGE UPLOAD MIDDLEWARE:
 const multerStorage = multer.diskStorage( {
-
+    destination: (req, res, cb) =>{
+        cb (null, 'public/packages');
+    }
 })
 
 //DATABASE connection
