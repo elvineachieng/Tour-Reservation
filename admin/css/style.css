@@ -51,7 +51,7 @@ body{
     background-color: hsl(215, 91%, 29%);
     display: none !important;
     width: 35vw !important;
-    padding: .8rem;
+    padding: .4rem;
 }
 .admin__sidebar--submenus > ul {
     margin: 0 !important;
@@ -75,7 +75,7 @@ body{
 }
 .menu__two:hover .two{
     position: absolute;
-    top: 18%;
+    top: 24%;
     left: 84%;
     display: block !important;
 }
