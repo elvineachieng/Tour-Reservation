@@ -118,6 +118,12 @@ admin.post('/create_packages',(req, res) => {
         };
         sql ='INSERT INTO packages SET?';
         db.query(sql, newPackage)
+        .then( (rows) => {
+            
+        })
+        .catch( (error) => {
+
+        });
         console.log(newPackage);
     });
 });
