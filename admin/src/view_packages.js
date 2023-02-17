@@ -7,3 +7,7 @@ fetch('http:localhost:3500/admin/view_packages', {
     }
 })
 .then ( (response) => response.json())
+.then( (responseData) => {
+    console.log(responseData);
+})
+.
