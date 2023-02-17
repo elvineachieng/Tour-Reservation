@@ -37,6 +37,10 @@ fetch('http://localhost:3500/admin/view_packages', {
         const packageDetails = document.createElement('p');
         packageDetails.innerHTML = data.package_details;
         packageContainer.appendChild(packageDetails);
+
+        const packageCreationDate = document.createElement('p');
+        packageCreationDate.innerHTML = data.created_at;
+        packageContainer.appendChild(packageCreationDate);
         root.appendChild(packageContainer)
     });
     console.log(responseData);
