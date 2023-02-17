@@ -12,7 +12,9 @@ app.use(express.json());
 const port = 3500;
 
 // IMAGE UPLOAD MIDDLEWARE:
+const multerStorage = multer.diskStorage( {
 
+})
 
 //DATABASE connection
 const pool = mysql.createPool({
