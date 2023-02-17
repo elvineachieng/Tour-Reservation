@@ -17,7 +17,7 @@ const port = 3500;
 
 //package ID:
 const packageID = () => {
-    return crypto.randomBytes(10).toString('hex');
+    return crypto.randomBytes(5).toString('hex');
 }
 
 // Destination
@@ -51,7 +51,7 @@ const upload = multer({
     storage: multerStorage,
     fileFilter: filterExtension
 })
-const uploadImage = upload.array('package_image', 10);
+const uploadImage = upload.single('package_image');
 
 //DATABASE connection
 const pool = mysql.createPool({
@@ -109,6 +109,7 @@ admin.post('/create_packages',(req, res) => {
             });
         }
         const {...package} = req.body;
+
         console.log(packageID());
         console.log(req.body);
         console.log(req.files);
