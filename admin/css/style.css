@@ -59,6 +59,7 @@ body{
 .admin__sidebar--submenus > ul > li {
     list-style-type: none;
     background-color: #000;
+    margin: 0 !important;
 }
 .admin__sidebar--submenus >ul > li > a {
     color: #000;
