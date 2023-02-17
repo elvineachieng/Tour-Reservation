@@ -48,6 +48,7 @@ body{
 
 /* Sidebar submenus */
 .admin__sidebar--submenus {
+    position:absolute;
     background-color: red;
     width: 100%;
 }
