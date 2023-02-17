@@ -147,7 +147,8 @@ admin.get('/view_packages', (req, res) => {
             });
         }
         res.status(201).json({
-            rows: rows[0]
+            statusText: 'Packages retrieved successfully',
+            data: rows[0],
         });
     })
     .catch( (error) => {
