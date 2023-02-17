@@ -81,7 +81,7 @@ body{
 }
 .menu__three:hover .three{
     position: absolute;
-    top: 40%;
+    top: 48%;
     left: 84%;
     display: block !important;
 }
