@@ -11,4 +11,7 @@ form.addEventListener('submit', (e) => {
     .then( (responseData) =>{
         console.log(responseData);
     })
+    .catch( (err) => {
+        console.log(err);
+    })
 });
