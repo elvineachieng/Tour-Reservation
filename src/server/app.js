@@ -44,11 +44,8 @@ const filterExtension = (req, file, cb) => {
 const upload = multer({
     storage: multerStorage,
     fileFilter: filterExtension
-});
-app.post('/', uploadImage = upload.array('package_image', 10), (req,res) => {
-    console.log(req.body);
 })
-
+const uploadImage = upload.array('package_image', 10);
 
 //DATABASE connection
 const pool = mysql.createPool({
