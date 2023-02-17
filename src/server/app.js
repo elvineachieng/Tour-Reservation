@@ -142,7 +142,7 @@ admin.get('/view_packages', (req, res) => {
     db.query(sql)
     .then( (rows) => {
         res.status(201).json({
-            rows: rows
+            rows: rows[0]
         });
     })
     .catch( (error) => {
