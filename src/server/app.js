@@ -14,6 +14,9 @@ const port = 3500;
 
 // IMAGE UPLOAD MIDDLEWARE:
 
+//package ID:
+
+
 // Destination
 const multerStorage = multer.diskStorage( {
     destination: (req, file, cb) =>{
@@ -103,7 +106,7 @@ admin.post('/create_packages',(req, res) => {
             });
         }
         const {...package} = req.body;
-        
+
         console.log(req.body);
         console.log(req.files);
     });
