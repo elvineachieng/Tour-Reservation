@@ -59,7 +59,7 @@ body{
 }
 .admin__sidebar--submenus > ul > li {
     list-style-type: none;
-    margin: 0 !important;
+    margin: .4rem 0 !important;
 }
 .admin__sidebar--submenus >ul > li > a {
     display: block !important;
