@@ -95,7 +95,7 @@ admin.post('create_packages',(req, res) => {
         if(error instanceof multer.MulterError){
             return res.status(400).json({
                 error: error.message
-            })
+            });
         }
     })
     console.log(req.body);
