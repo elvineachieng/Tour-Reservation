@@ -3,6 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const mysql = require('mysql2');
 const multer = require('multer');
+const crypto = require('crypto');
 
 const app = express();
 
@@ -15,7 +16,9 @@ const port = 3500;
 // IMAGE UPLOAD MIDDLEWARE:
 
 //package ID:
-
+const packageID = () => {
+    return crypto.randomBytes(10).toString('hex');
+}
 
 // Destination
 const multerStorage = multer.diskStorage( {
