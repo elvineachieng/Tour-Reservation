@@ -102,6 +102,7 @@ admin.post('/create_packages',(req, res) => {
                 error: error.message,
             });
         }
+        const {...package} = req.body;
         console.log(req.body);
         console.log(req.files);
     });
