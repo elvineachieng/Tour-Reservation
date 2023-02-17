@@ -6,3 +6,4 @@ fetch('http:localhost:3500/admin/view_packages', {
         'content-type': 'application/json',
     }
 })
+.then ( (response) => response.json())
