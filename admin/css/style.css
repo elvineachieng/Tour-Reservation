@@ -26,3 +26,6 @@ body{
     margin-bottom: 8% !important;
     cursor: pointer;
 }
+..admin__sidebar *:hover{
+    text-decoration: underline;
+}
