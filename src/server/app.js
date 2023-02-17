@@ -23,6 +23,8 @@ const pool = mysql.createPool({
 const db = pool.promise();
 
 //ENDPOINTS
+
+// ADMIN LOGIN:
 const admin = express.Router();
 admin.post('/login', (req, res, next) => {
     const sql = 
@@ -50,7 +52,12 @@ admin.post('/login', (req, res, next) => {
         })
     })
     //console.log(req.body);
-})
+});
+
+// ADMIN CREATE PACKAGES:
+admin.post('create_packages', (req, res) => {
+
+});
 
 app.use('/admin', admin);
 
