@@ -109,10 +109,16 @@ admin.post('/create_packages',(req, res) => {
             });
         }
         const {...package} = req.body;
+        const {path} = req.file;
 
+        const newPackage = {
+            package_id: packageID(),
+            ...package,
+            package_image: path
+        }
         console.log(packageID());
-        console.log(req.body);
-        console.log(req.files);
+        console.log(package);
+        console.log(path);
     });
 });
 
