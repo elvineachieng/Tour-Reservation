@@ -47,13 +47,13 @@ body{
 
 /* Sidebar submenus */
 .admin__sidebar--submenus {
-    background-color: #fff;
+    background-color: red;
     width: 100%;
 }
 .admin__sidebar--submenus > ul {
     width: 100%;
- background-color: aqua;
- padding: .2rem 0;
+    /* background-color: aqua; */
+    padding: .2rem 0;
 }
 .admin__sidebar--submenus > ul > li {
     list-style-type: none;
