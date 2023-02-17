@@ -33,6 +33,10 @@ fetch('http://localhost:3500/admin/view_packages', {
         const packageType = document.createElement('p');
         packageType.innerHTML = data.package_type;
         packageContainer.appendChild(packageType);
+
+        const packageDetails = document.createElement('p');
+        packageDetails.innerHTML = data.package_details;
+        packageContainer.appendChild(packageDetails);
         root.appendChild(packageContainer)
     });
     console.log(responseData);
