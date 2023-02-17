@@ -25,7 +25,9 @@ const multerStorage = multer.diskStorage( {
 });
 
 // Filter extension
-
+const filterExtension = (req, file, cb) => {
+    
+};
 
 //DATABASE connection
 const pool = mysql.createPool({
