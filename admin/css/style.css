@@ -75,7 +75,7 @@ body{
 }
 .menu__two:hover .two{
     position: absolute;
-    top: 24%;
+    top: 28%;
     left: 84%;
     display: block !important;
 }
