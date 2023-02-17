@@ -77,11 +77,13 @@ body{
     position: absolute;
     top: 18%;
     left: 84%;
+    display: block !important;
 }
 .menu__three:hover .three{
     position: absolute;
     top: 36%;
     left: 84%;
+    display: block !important;
 }
 .menu__four:hover .four{
     position: absolute;
