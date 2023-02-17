@@ -48,7 +48,7 @@ body{
 
 /* Sidebar submenus */
 .admin__sidebar--submenus {
-    background-color: red;
+    background-color: hsl(215, 91%, 29%);
     width: 35vw !important;
     padding: .8rem;
 }
