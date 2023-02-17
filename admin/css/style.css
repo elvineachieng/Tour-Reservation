@@ -69,7 +69,7 @@ body{
 /* position each submenu */
 .menu__one:hover .one{
     position: absolute;
-    top: 6%;
+    top: 12%;
     left: 84%;
     display: block !important;
 }
