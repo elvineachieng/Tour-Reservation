@@ -83,8 +83,9 @@ body{
     top: 36%;
     left: 84%;
 }
-.four{
+.menu__four:hover .four{
     position: absolute;
     top: 60%;
     left: 84%;
+    display: block !important;
 }
