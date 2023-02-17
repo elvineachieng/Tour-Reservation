@@ -5,6 +5,9 @@ form.addEventListener('submit', (e) => {
     const formData = new FormData(form);
     fetch('http://localhost:3500/admin/create_packages', {
         method: 'POST',
-        body: 
+        body: JSON.stringify(formData),
+        headers:{
+            'content-type': 'application/json',
+        }
     })
 });
