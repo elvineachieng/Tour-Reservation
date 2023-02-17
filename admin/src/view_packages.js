@@ -19,18 +19,19 @@ fetch('http://localhost:3500/admin/view_packages', {
         packageContainer.appendChild(packagePrice);
 
         const packageLocation = document.createElement('p');
-        packageLocation.innerHTML = data.package_location
+        packageLocation.innerHTML = data.package_location;
         packageContainer.appendChild(packageLocation);
 
         const packageName = document.createElement('h2');
-        packageName.innerHTML = data.package_name
+        packageName.innerHTML = data.package_name;
         packageContainer.appendChild(packageName);
 
         const packageFeatures = document.createElement('p');
-        packageFeatures.innerHTML = data.package_features
+        packageFeatures.innerHTML = data.package_features;
         packageContainer.appendChild(packageFeatures);
 
         const packageType = document.createElement('p');
+        packageType.innerHTML = data.package_type;
         packageContainer.appendChild(packageType);
         root.appendChild(packageContainer)
     });
