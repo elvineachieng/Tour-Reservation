@@ -90,7 +90,7 @@ admin.post('/login', (req, res, next) => {
 });
 
 // ADMIN CREATE PACKAGES:
-admin.post('create_packages', (req, res) => {
+admin.post('create_packages', uploadImage, (req, res) => {
     console.log(req.body);
 });
 
