@@ -26,7 +26,14 @@ const multerStorage = multer.diskStorage( {
 
 // Filter extension
 const filterExtension = (req, file, cb) => {
-    
+    if(
+        file.mimetype.split('/')[1] === 'jpg' ||
+        file.mimetype.split('/')[1] === 'jpeg' ||
+        file.mimetype.split('/')[1] === 'png' ||
+        file.mimetype.split('/')[1] === 'webp' ||
+        file.mimetype.split('/')[1] === 'svg' ||
+        file.mimetype.split('/')[1] === 'gif' 
+    )
 };
 
 //DATABASE connection
