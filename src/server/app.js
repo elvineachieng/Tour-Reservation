@@ -141,6 +141,9 @@ admin.get('/view_packages', (req, res) => {
     const sql = 'SELECT * FROM packages';
     db.query(sql)
     .then( (rows) => {
+        if( rows[0].length < 1) {
+            return
+        }
         res.status(201).json({
             rows: rows[0]
         });
