@@ -46,3 +46,6 @@ body{
 }
 
 /* Sidebar submenus */
+.admin__sidebar--submenus {
+    background-color: #fff;
+}
