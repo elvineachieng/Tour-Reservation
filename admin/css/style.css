@@ -49,3 +49,10 @@ body{
 .admin__sidebar--submenus {
     background-color: #fff;
 }
+.admin__sidebar--submenus > ul {
+
+}
+.admin__sidebar--submenus > ul > li {
+
+}
+.admin__sidebar--submenus >ul > li > a {}
