@@ -55,4 +55,6 @@ body{
 .admin__sidebar--submenus > ul > li {
 
 }
-.admin__sidebar--submenus >ul > li > a {}
+.admin__sidebar--submenus >ul > li > a {
+    color: #000;
+}
