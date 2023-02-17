@@ -10,4 +10,8 @@ form.addEventListener('submit', (e) => {
             'content-type': 'application/json',
         }
     })
+    .then( response => response.json())
+    .then( (responseData) =>{
+        console.log(responseData);
+    })
 });
