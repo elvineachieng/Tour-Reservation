@@ -20,7 +20,7 @@ body{
     padding: 4% 0;
     position: relative;
 }
-.admin__sidebar *{
+.admin__sidebar > div{
     color: #fff;
     font-size: 1.2rem;
     width: 100% !important;
