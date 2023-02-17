@@ -114,7 +114,7 @@ admin.post('/create_packages',(req, res) => {
         const newPackage = {
             package_id: packageID(),
             ...package,
-            package_image: path
+            package_image: path,
         };
         sql ='INSERT INTO packages SET?';
         db.query(sql, newPackage)
