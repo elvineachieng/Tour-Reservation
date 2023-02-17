@@ -143,7 +143,7 @@ admin.get('/view_packages', (req, res) => {
     .then( (rows) => {
         if( rows[0].length < 1) {
             return res.status(400).json({
-                
+                statusText: 'Currenntly, no packages available!',
             });
         }
         res.status(201).json({
