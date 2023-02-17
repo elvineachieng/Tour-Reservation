@@ -27,6 +27,13 @@ body{
     margin-bottom: 8% !important;
     cursor: pointer;
 }
+@media screen and (min-width:900px){
+    .admin__sidebar{
+        background-color: hsl(215, 26%, 54%);
+        width: 25vw;
+        padding: 4% 0;
+    }
+}
 .admin__sidebar *::first-letter{
     text-transform: capitalize;
 }
