@@ -29,6 +29,9 @@ fetch('http://localhost:3500/admin/view_packages', {
         const packageFeatures = document.createElement('p');
         packageFeatures.innerHTML = data.package_features
         packageContainer.appendChild(packageFeatures);
+
+        const packageType = document.createElement('p');
+        packageContainer.appendChild(packageType);
         root.appendChild(packageContainer)
     });
     console.log(responseData);
