@@ -6,9 +6,6 @@ form.addEventListener('submit', (e) => {
     fetch('http://localhost:3500/admin/create_packages', {
         method: 'POST',
         body: formData,
-        headers:{
-            'content-type': 'application/json',
-        }
     })
     .then( response => response.json())
     .then( (responseData) =>{
