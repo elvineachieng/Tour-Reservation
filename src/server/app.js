@@ -92,7 +92,9 @@ admin.post('/login', (req, res, next) => {
 // ADMIN CREATE PACKAGES:
 admin.post('create_packages',(req, res) => {
     uploadImage((req, res, error) => {
-        
+        if(error instanceof multer.MulterError){
+            
+        }
     })
     console.log(req.body);
 });
