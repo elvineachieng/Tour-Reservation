@@ -53,7 +53,7 @@ body{
 
 }
 .admin__sidebar--submenus > ul > li {
-
+    list-style-type: none;
 }
 .admin__sidebar--submenus >ul > li > a {
     color: #000;
