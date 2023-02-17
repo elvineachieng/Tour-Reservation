@@ -8,10 +8,15 @@ fetch('http://localhost:3500/admin/view_packages', {
     responseData.data.map( (data) =>{
         const packageContainer = document.createElement('div');
         packageContainer.setAttribute('id', data.package_id);
+
         const packageImage = document.createElement('img');
         packageImage.setAttribute('src', 'http://localhost:3500/'+data.package_image);
         packageImage.setAttribute('alt', data.package_name);
         packageContainer.appendChild(packageImage);
+
+        const packagePrice = document.createElement('p');
+        
+        packageContainer.appendChild(packagePrice);
         root.appendChild(packageContainer)
     });
     console.log(responseData);
