@@ -21,6 +21,10 @@ fetch('http://localhost:3500/admin/view_packages', {
         const packageLocation = document.createElement('p');
         packageLocation.innerHTML = data.package_location
         packageContainer.appendChild(packageLocation);
+
+        const packageName = document.createElement('h2');
+        h2.innerHTML = data.package_name
+        packageContainer.appendChild(packageName);
         root.appendChild(packageContainer)
     });
     console.log(responseData);
