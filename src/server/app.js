@@ -136,6 +136,11 @@ admin.post('/create_packages',(req, res) => {
     });
 });
 
+//ADMIN VIEW PACKAGES
+admin.get('/view_packages', (req, res) => {
+
+});
+
 app.use('/admin', admin);
 
 app.listen(port);
