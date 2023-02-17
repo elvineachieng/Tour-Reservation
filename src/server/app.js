@@ -121,7 +121,7 @@ admin.post('/create_packages',(req, res) => {
         .then( (rows) => {
             res.status(200).json({
                 message: "package created successfully",
-            })
+            });
         })
         .catch( (error) => {
             res.status(400).json({
