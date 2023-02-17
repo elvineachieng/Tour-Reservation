@@ -45,7 +45,9 @@ const upload = multer({
     storage: multerStorage,
     fileFilter: filterExtension
 });
-const uploadImage = upload.array('package_image', 10)
+app.post('/', uploadImage = upload.array('package_image', 10), (req,res) => {
+    console.log(req.body);
+})
 
 
 //DATABASE connection
