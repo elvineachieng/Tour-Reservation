@@ -103,6 +103,7 @@ admin.post('/create_packages',(req, res) => {
             });
         }
         const {...package} = req.body;
+        
         console.log(req.body);
         console.log(req.files);
     });
