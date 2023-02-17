@@ -142,7 +142,9 @@ admin.get('/view_packages', (req, res) => {
     db.query(sql)
     .then( (rows) => {
         if( rows[0].length < 1) {
-            return
+            return res.status(400).json({
+                
+            });
         }
         res.status(201).json({
             rows: rows[0]
