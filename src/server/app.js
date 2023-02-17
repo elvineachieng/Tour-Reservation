@@ -143,6 +143,11 @@ admin.get('/view_packages', (req, res) => {
     .then( (rows) => {
         res.status(201).json({});
     })
+    .catch( (error) => {
+        res.status(400).json({
+            
+        });
+    });
 });
 
 app.use('/admin', admin);
