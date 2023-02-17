@@ -16,12 +16,12 @@ body{
 }
 .admin__sidebar{
     background-color: hsl(215, 70%, 16%);
-    width: 30vw;
+    width: 25vw;
     padding: 4% 0;
 }
 .admin__sidebar *{
     color: #fff;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     width: 100% !important;
     margin-left: 1.2rem !important;
     margin-bottom: 8% !important;
