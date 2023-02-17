@@ -39,6 +39,13 @@ const filterExtension = (req, file, cb) => {
     return cb (new Error("File type not supported!"), false);
 };
 
+// Calling multer
+const upload = multer({
+    storage: multerStorage,
+    fileFilter: filterExtension
+});
+
+
 //DATABASE connection
 const pool = mysql.createPool({
     host: 'localhost',
