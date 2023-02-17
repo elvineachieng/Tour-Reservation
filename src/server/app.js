@@ -133,7 +133,6 @@ admin.post('/create_packages',(req, res) => {
                 statusText: error.message,
             });
         });
-        console.log(newPackage);
     });
 });
 
