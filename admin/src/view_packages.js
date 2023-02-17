@@ -5,6 +5,9 @@ fetch('http://localhost:3500/admin/view_packages', {
 })
 .then ( (response) => response.json())
 .then( (responseData) => {
+    responseData.data.map( (data) =>{
+
+    });
     console.log(responseData);
 })
 .catch ( (err) => {
