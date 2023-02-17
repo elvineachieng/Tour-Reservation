@@ -22,7 +22,7 @@ body{
 .admin__sidebar *{
     color: #fff;
     font-size: 1.6rem;
-    width: 80% !important;
+    width: 100% !important;
     margin-inline: auto !important;
     margin-bottom: 8% !important;
     cursor: pointer;
