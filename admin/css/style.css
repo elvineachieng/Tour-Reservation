@@ -53,7 +53,8 @@ body{
     width: 30vw !important;
 }
 .admin__sidebar--submenus > ul {
-    margin: 0 !important;
+    width: 70%;
+    margin: 0 auto !important;
 }
 .admin__sidebar--submenus > ul > li {
     list-style-type: none;
