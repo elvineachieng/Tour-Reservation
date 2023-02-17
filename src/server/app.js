@@ -33,7 +33,9 @@ const filterExtension = (req, file, cb) => {
         file.mimetype.split('/')[1] === 'webp' ||
         file.mimetype.split('/')[1] === 'svg' ||
         file.mimetype.split('/')[1] === 'gif' 
-    )
+    ){
+        return cb (null, true);
+    }
 };
 
 //DATABASE connection
