@@ -17,6 +17,10 @@ fetch('http://localhost:3500/admin/view_packages', {
         const packagePrice = document.createElement('p');
         packagePrice.innerHTML = data.package_price
         packageContainer.appendChild(packagePrice);
+
+        const packageLocation = document.createElement('p');
+        packageLocation.innerHTML = data.package_location
+        packageContainer.appendChild(packageLocation);
         root.appendChild(packageContainer)
     });
     console.log(responseData);
