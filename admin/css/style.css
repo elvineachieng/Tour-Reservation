@@ -66,4 +66,5 @@ body{
 /* position each submenu */
 .one{
     position: absolute;
+    top: 6%;
 }
