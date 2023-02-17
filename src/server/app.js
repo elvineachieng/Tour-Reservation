@@ -17,7 +17,8 @@ const multerStorage = multer.diskStorage( {
         cb (null, 'public/packages');
     },
     filename: (req, file, cb) => {
-        
+        const ext = file.mimetype.split('/')[1];
+        cb (null, `${file.fieldname}_${Date.now()}.${ext}`)
     }
 })
 
