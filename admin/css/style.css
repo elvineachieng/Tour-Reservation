@@ -67,10 +67,11 @@ body{
     margin: 0 !important;
 }
 /* position each submenu */
-.one{
+.admin__sidebar:hover .one{
     position: absolute;
     top: 6%;
     left: 84%;
+    display: block !important;
 }
 .two{
     position: absolute;
