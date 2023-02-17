@@ -73,12 +73,12 @@ body{
     left: 84%;
     display: block !important;
 }
-.menu__two:hover.two{
+.menu__two:hover .two{
     position: absolute;
     top: 18%;
     left: 84%;
 }
-.three{
+.menu__three:hover .three{
     position: absolute;
     top: 36%;
     left: 84%;
