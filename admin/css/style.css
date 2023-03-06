@@ -123,6 +123,7 @@ body{
     width: 100% !important;
     font-size: 2rem !important;
     text-transform: capitalize;
+    border-radius: .4rem !important;
 }
 .login-main main .login form .formgroup input {
     height: 5vh !important;
