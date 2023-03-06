@@ -154,6 +154,9 @@ body{
         max-width: 25vw !important;
     }
 
+    .login-main main .login form .formgroup *{
+        font-size: 1.2rem !important;
+    }
     .login-main main .login form .formgroup input {
         height: 6vh !important;
         font-size: 1.6rem !important;
