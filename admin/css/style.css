@@ -156,5 +156,6 @@ body{
 
     .login-main main .login form .formgroup input {
         height: 6vh !important;
+        font-size: 1.6rem !important;
     }
 }
