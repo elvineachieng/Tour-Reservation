@@ -109,6 +109,7 @@ body{
 }
 .login-main main .login form{
     display: flex !important;
+    flex-direction: column;
 }
 .login-main main .login form .formgroup{
 
