@@ -129,6 +129,7 @@ body{
     height: 5vh !important;
     outline: none !important;
     border: none !important;
+    padding-left: .2rem !important;
 }
 .login-main main .login form .formgroup label {
     color: #fff;
@@ -137,5 +138,5 @@ body{
     font-weight: 900;
     background-color:hsl(240, 63%, 45%);
     color:#fff;
-    box-shadow: .1rem .1rem .2rem .4rem #000;
+    box-shadow: .1rem .1rem .2rem .4rem hsla(0, 0%, 0%, 0.086);
 }
