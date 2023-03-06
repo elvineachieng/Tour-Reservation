@@ -133,7 +133,5 @@ body{
     color: #fff;
 }
 .login-main main .login form .formgroup button {
-    height: 5vh !important;
-    outline: none !important;
-    border: none !important;
+    
 }
