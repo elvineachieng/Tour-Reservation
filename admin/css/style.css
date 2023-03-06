@@ -140,3 +140,6 @@ body{
     color:#fff;
     box-shadow: .1rem .1rem .2rem .4rem hsla(0, 0%, 0%, 0.086);
 }
+@media (min-width: 1024px){
+    
+}
