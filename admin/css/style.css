@@ -136,5 +136,5 @@ body{
 .login-main main .login form .formgroup button {
     font-weight: 900;
     background-color:hsl(219, 79%, 66%);
-    
+    color: #fff;
 }
