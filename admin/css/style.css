@@ -140,6 +140,12 @@ body{
     color:#fff;
     box-shadow: .1rem .1rem .2rem .4rem hsla(0, 0%, 0%, 0.086);
 }
+
+/* CREATING PACKAGE STYLES */
+
+
+
+
 @media (min-width: 900px){
     .login-main main .login{
         max-width: 50vw !important;
