@@ -93,10 +93,11 @@ body{
     display: block !important;
 }
 .login-main {
-    height: 10vh !important;
+    height: 100vh !important;
 }
 .login-main main{
     background-color: hsl(240, 63%, 45%);
+    height: 100vh !important;
 }
 .login-main main .login{
     
