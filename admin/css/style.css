@@ -143,9 +143,5 @@ body{
 @media (min-width: 1000px){
     .login-main main .login{
         max-width: 40vw !important;
-        padding: 2.8%;
-        margin-inline: auto !important;
-        /* background-color: black; */
-        
     }
 }
