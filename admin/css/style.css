@@ -140,12 +140,21 @@ body{
     color:#fff;
     box-shadow: .1rem .1rem .2rem .4rem hsla(0, 0%, 0%, 0.086);
 }
-@media (min-width: 1000px){
+@media (min-width: 900px){
     .login-main main .login{
-        max-width: 40vw !important;
+        max-width: 50vw !important;
     }
 
     .login-main main .login form .formgroup input {
         height: 7vh !important;
+    }
+}
+@media (min-width: 1100px){
+    .login-main main .login{
+        max-width: 25vw !important;
+    }
+
+    .login-main main .login form .formgroup input {
+        height: 6vh !important;
     }
 }
