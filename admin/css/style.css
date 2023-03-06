@@ -122,11 +122,17 @@ body{
     display: block !important;
     width: 100% !important;
     font-size: 2rem !important;
-    color: #fff;
 }
 .login-main main .login form .formgroup input {
     height: 5vh !important;
-    background-color: transparent !important;
+    outline: none !important;
+    border: none !important;
+}
+.login-main main .login form .formgroup label {
+    color: #fff;
+}
+.login-main main .login form .formgroup button {
+    height: 5vh !important;
     outline: none !important;
     border: none !important;
 }
