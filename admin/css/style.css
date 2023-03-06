@@ -112,5 +112,5 @@ body{
     flex-direction: column;
 }
 .login-main main .login form .formgroup{
-
+    margin-bottom: .8rem !important;
 }
