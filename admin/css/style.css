@@ -98,6 +98,9 @@ body{
 .login-main main{
     background-color: hsl(240, 63%, 45%);
     height: 100vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 .login-main main .login{
     
