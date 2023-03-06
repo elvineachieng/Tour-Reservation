@@ -140,6 +140,12 @@ body{
     color:#fff;
     box-shadow: .1rem .1rem .2rem .4rem hsla(0, 0%, 0%, 0.086);
 }
-@media (min-width: 1024px){
-    
+@media (min-width: 1000px){
+    .login-main main .login{
+        width: 80vw !important;
+        padding: 2.8%;
+        margin-inline: auto !important;
+        /* background-color: black; */
+        
+    }
 }
