@@ -149,6 +149,9 @@ body{
     display: flex !important;
     flex-direction: column;
 }
+.package-body main section{
+    margin: 0 0 0 1.2rem !important;
+}
 
 
 
