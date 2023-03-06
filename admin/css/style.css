@@ -147,6 +147,7 @@ body{
 }
 .package-body main{
     display: flex !important;
+    flex-direction: column;
 }
 
 
