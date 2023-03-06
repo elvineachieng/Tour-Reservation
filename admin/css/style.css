@@ -122,3 +122,6 @@ body{
     display: block !important;
     width: 100% !important;
 }
+.login-main main .login form .formgroup input {
+    height: 7vh !important;
+}
