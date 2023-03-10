@@ -14,7 +14,7 @@ fetch('http://localhost:3500/admin/view_packages', {
             packageContainer.setAttribute('id', data.package_id);
 
             const packageImage = document.createElement('img');
-            packageImage.setAttribute('src', 'http://127.0.0.1:3500/'+data.package_image);
+            packageImage.setAttribute('src', `http://127.0.0.1:3500/${data.package_image}`);
             packageImage.setAttribute('alt', data.package_name);
             packageContainer.appendChild(packageImage);
 
