@@ -8,13 +8,13 @@ fetch('http://localhost:3500/admin/view_packages', {
     if (responseData.data){
         responseData.data.map( (data) =>{
             let img = ""+data.package_image;
-            const testA = `<a href="localhost:3500/${img}>img</a>`;
+            const testA = `<a href="localhost:3500/${img}">img</a>`;
             console.log(testA)
             const packageContainer = document.createElement('div');
             packageContainer.setAttribute('id', data.package_id);
 
             const packageImage = document.createElement('img');
-            packageImage.setAttribute('src', 'http://localhost:3500/'+data.package_image);
+            packageImage.setAttribute('src', 'http://127.0.0.1:3500/'+data.package_image);
             packageImage.setAttribute('alt', data.package_name);
             packageContainer.appendChild(packageImage);
 
