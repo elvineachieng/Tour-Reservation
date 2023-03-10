@@ -1,6 +1,5 @@
 const form = document.getElementById('loginForm');
 const errorSpan = form.querySelector('span.error');
-console.log(errorSpan);
 form.addEventListener('submit', (event) =>{
     event.preventDefault();
     const formData = new FormData(form);
@@ -17,7 +16,7 @@ form.addEventListener('submit', (event) =>{
     .then(data => {
         console.log(data);
         if(data.error){
-            console.log(data.statusText);
+            errorSpan.textContent = data.statusText;
             return;
         }
         return window.location.href = './dashboard.html';
