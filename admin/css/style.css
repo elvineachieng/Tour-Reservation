@@ -234,7 +234,7 @@ margin-bottom: 4% !important;
 background-color: hsl(240, 63%, 45%);
 }
 .body-view-package main{
-
+    padding: .8% !important;
 }
 .body-view-package main section.view_packages{
 
