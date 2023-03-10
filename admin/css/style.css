@@ -165,7 +165,7 @@ margin-bottom: 1.6% !important;
     display: block !important;
 }
 .package-body main section.createPackage form div.forgroup label{
-    margin-bottom: .8% !important;
+    margin-bottom: 1.2% !important;
 }
 .package-body main section.createPackage form div.forgroup label::first-letter{
     text-transform: uppercase !important;
