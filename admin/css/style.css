@@ -200,10 +200,11 @@ margin-bottom: 4% !important;
 }
 
 .package-body main section.createPackage form div.btn-display{
-    display: flex;
+    display: flex !important;
 }
 .package-body main section.createPackage form div.btn-display *{
-    display: block;
+    display: block !important;
+    width: 50% !important;
 }
 
 @media (min-width: 900px){
