@@ -162,7 +162,7 @@ body{
 }
 .package-body main section.createPackage {
     background-color: yellow !important;
-    margin-inline: -4rem !important;
+    margin-left: -4rem !important;
 }
 .package-body main section.createPackage form {
 
@@ -175,6 +175,7 @@ margin-bottom: 4% !important;
 }
 .package-body main section.createPackage form div.forgroup label{
     margin-bottom: .4% !important;
+    font-size: 1.6rem !important;
 }
 .package-body main section.createPackage form div.forgroup label::first-letter{
     text-transform: uppercase !important;
