@@ -18,6 +18,6 @@ form.addEventListener('submit', (event) =>{
             console.log(data.error);
             return;
         }
-        //return window.location.href = './dashboard.html';
+        return window.location.href = './dashboard.html';
     })
 });
