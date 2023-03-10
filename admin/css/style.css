@@ -159,11 +159,14 @@ body{
 
 }
 .package-body main section.createPackage form div.forgroup{
-margin-bottom: 4% !important;
+margin-bottom: 1.6% !important;
 }
 .package-body main section.createPackage form div.forgroup *{
     display: block !important;
-    }
+}
+.package-body main section.createPackage form div.forgroup label{
+    margin-bottom: .8%;
+}
 
 
 
