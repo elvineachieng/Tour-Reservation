@@ -144,6 +144,7 @@ body{
 /* CREATING PACKAGE STYLES */
 .package-body{
     background-color:hsl(240, 63%, 45%) !important;
+    display: flex !important;
 }
 .package-body main{
     display: flex !important;
