@@ -29,7 +29,7 @@ fetch('http://localhost:3500/admin/view_packages', {
             packageContainer.appendChild(packageLocation);
 
             const packageFeatures = document.createElement('p');
-            packageFeatures.innerHTML = data.package_features;
+            packageFeatures.innerHTML = `<span>Package Features</span>${data.package_features}`;
             packageContainer.appendChild(packageFeatures);
 
             const packageType = document.createElement('p');
