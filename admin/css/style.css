@@ -215,8 +215,8 @@ margin-bottom: 4% !important;
     font-size: 1.6rem !important;
     border: none !important;
     outline:none !important;
-    border-radius: .4rem !important;
-    box-shadow: .1rem .1rem .2rem .4rem black !important;;
+    border-radius: .2rem !important;
+    box-shadow: .1rem .1rem .2rem .4rem rgba(0, 0, 0, 0.066) !important;;
 }
 .package-body main section.createPackage form div.btn-display button.btn-create{
     background-color: transparent !important;
