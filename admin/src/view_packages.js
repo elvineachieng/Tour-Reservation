@@ -16,17 +16,17 @@ fetch('http://localhost:3500/admin/view_packages', {
             packageImage.setAttribute('alt', data.package_name);
             packageContainer.appendChild(packageImage);
 
-            const packagePrice = document.createElement('p');
-            packagePrice.innerHTML = data.package_price
-            packageContainer.appendChild(packagePrice);
-
-            const packageLocation = document.createElement('p');
-            packageLocation.innerHTML = data.package_location;
-            packageContainer.appendChild(packageLocation);
-
             const packageName = document.createElement('h2');
             packageName.innerHTML = data.package_name;
             packageContainer.appendChild(packageName);
+
+            const packagePrice = document.createElement('p');
+            packagePrice.innerHTML = `Price: ${data.package_price}`
+            packageContainer.appendChild(packagePrice);
+
+            const packageLocation = document.createElement('p');
+            packageLocation.innerHTML = `Location: ${data.package_location}`;
+            packageContainer.appendChild(packageLocation);
 
             const packageFeatures = document.createElement('p');
             packageFeatures.innerHTML = data.package_features;
