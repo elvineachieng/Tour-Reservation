@@ -143,17 +143,20 @@ body{
 
 /* CREATING PACKAGE STYLES */
 .package-body{
-    background-color: transparent !important;
+    background-color:hsl(240, 63%, 45%) !important;
 }
 .package-body main{
     display: flex !important;
     flex-direction: column;
 }
 .package-body main section{
-    margin: 0 0 0 1.2rem !important;
+    padding: 4%;
 }
 .package-body main section.heading{
     background-color: red !important;
+}
+.package-body main section.createPackage {
+    background-color: yellow !important;
 }
 .package-body main section.createPackage form {
 
