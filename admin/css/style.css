@@ -162,7 +162,7 @@ body{
 }
 .package-body main section.createPackage {
     background-color: yellow !important;
-    margin-left: -4rem !important;
+    width: 80% !important;
 }
 .package-body main section.createPackage form {
 
