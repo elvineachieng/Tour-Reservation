@@ -143,6 +143,8 @@ body{
 
 /* CREATING PACKAGE STYLES */
 .package-body{
+    width: 100vw !important;
+    overflow: hidden !important;
     background-color:hsl(240, 63%, 45%) !important;
 }
 .package-body main{
