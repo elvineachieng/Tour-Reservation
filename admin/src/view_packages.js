@@ -8,8 +8,8 @@ fetch('http://localhost:3500/admin/view_packages', {
     if (responseData.data){
         responseData.data.map( (data) =>{
             let img = ""+data.package_image;
-            const testA = `<a href="localhost:3500/${img}">img</a>`;
-            console.log(testA)
+            
+            console.log(img)
             const packageContainer = document.createElement('div');
             packageContainer.setAttribute('id', data.package_id);
 
