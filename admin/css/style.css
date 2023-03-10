@@ -172,6 +172,7 @@ margin-bottom: 1.6% !important;
 }
 .package-body main section.createPackage form div.forgroup input{
     height: 5vh !important;
+    width: 80%;
 }
 
 
