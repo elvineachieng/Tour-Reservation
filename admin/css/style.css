@@ -155,9 +155,15 @@ body{
 .package-body main section.heading{
     background-color: red !important;
 }
-.package-body main section.createPackage{
-    
+.package-body main section.createPackage form {
+
 }
+.package-body main section.createPackage form div.forgroup{
+margin-bottom: 4% !important;
+}
+.package-body main section.createPackage form div.forgroup *{
+    display: block !important;
+    }
 
 
 
