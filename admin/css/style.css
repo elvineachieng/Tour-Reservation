@@ -154,7 +154,6 @@ body{
     padding: 4%;
 }
 .package-body main section.heading{
-    background-color: red !important;
     padding-inline: 4% !important;
 }
 .package-body main section.heading h2{
