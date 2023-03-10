@@ -4,7 +4,7 @@ fetch('http://localhost:3500/admin/view_packages', {
     method: 'GET',
 })
 .then ( (response) => response.json())
-.then( (responseData) => {
+.then( (responseData = responseData || []) => {
     responseData.data.map( (data) =>{
         const packageContainer = document.createElement('div');
         packageContainer.setAttribute('id', data.package_id);
