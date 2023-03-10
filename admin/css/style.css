@@ -135,7 +135,7 @@ body{
     color: #fff;
 }
 .login-main main .login form .formgroup span.error {
-    color: red !important;
+    color: yellow !important;
 }
 .login-main main .login form .formgroup button {
     font-weight: 900;
