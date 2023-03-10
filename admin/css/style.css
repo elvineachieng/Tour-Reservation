@@ -214,8 +214,11 @@ margin-bottom: 4% !important;
     height: 5vh !important;
     font-size: 1.6rem !important;
 }
-.package-body main section.createPackage form div.btn-display:first-child{
+.package-body main section.createPackage form div.btn-display button.btn-create{
     background-color: transparent !important;
+    border: none !important;
+    outline:none !important;
+    border-radius: .4rem !important;
 }
 
 @media (min-width: 900px){
