@@ -134,6 +134,9 @@ body{
 .login-main main .login form .formgroup label {
     color: #fff;
 }
+.login-main main .login form .formgroup span {
+    color: red !important;
+}
 .login-main main .login form .formgroup button {
     font-weight: 900;
     background-color:hsl(240, 63%, 45%);
