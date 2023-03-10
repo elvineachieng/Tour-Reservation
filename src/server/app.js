@@ -78,7 +78,8 @@ admin.post('/login', (req, res, next) => {
             });
         };
         if(rows[0][0].password !== req.body.password){
-            return res.status(404).json({
+            return res.status(402).json({
+                error: 'code402',
                 statusText: 'Invalid password',
             });
         };
