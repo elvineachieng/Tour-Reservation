@@ -1,5 +1,5 @@
 const form = document.getElementById('loginForm');
-const errorSpan = form.getElementsByTagName('span.error');
+const errorSpan = form.querySelector('span.error');
 console.log(errorSpan);
 form.addEventListener('submit', (event) =>{
     event.preventDefault();
