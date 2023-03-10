@@ -214,6 +214,9 @@ margin-bottom: 4% !important;
     height: 5vh !important;
     font-size: 1.6rem !important;
 }
+.package-body main section.createPackage form div.btn-display:first-child{
+    background-color: transparent !important;
+}
 
 @media (min-width: 900px){
     .login-main main .login{
