@@ -15,7 +15,7 @@ form.addEventListener('submit', (event) =>{
     .then(data => {
         console.log(data);
         if(data.error){
-            console.log(data.error);
+            console.log(data.statusText);
             return;
         }
         return window.location.href = './dashboard.html';
