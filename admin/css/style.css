@@ -202,6 +202,7 @@ margin-bottom: 4% !important;
 }
 
 .package-body main section.createPackage form div.btn-display{
+    width: 90%;
     background-color: red;
     display: flex !important;
     justify-content: space-around;
@@ -209,8 +210,9 @@ margin-bottom: 4% !important;
 }
 .package-body main section.createPackage form div.btn-display *{
     display: block !important;
-    width: 35% !important;
+    width: 40% !important;
     height: 5vh !important;
+    font-size: 1.6rem !important;
 }
 
 @media (min-width: 900px){
