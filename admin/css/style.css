@@ -184,13 +184,16 @@ margin-bottom: 4% !important;
 .package-body main section.createPackage form div.forgroup label::first-letter{
     text-transform: uppercase !important;
 }
-.package-body main section.createPackage form div.forgroup input{
+.package-body main section.createPackage form div.forgroup input,
+.package-body main section.createPackage form div.forgroup textarea
+{
     height: 5vh !important;
     width: 90%;
     border: none !important;
     outline: none !important;
     padding-inline: .4rem !important;
-    font-size: 1.6rem;
+    font-size: 1.6rem !important;
+    border-radius: .2rem !important;
 }
 
 
