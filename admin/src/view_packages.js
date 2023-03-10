@@ -7,9 +7,6 @@ fetch('http://localhost:3500/admin/view_packages', {
 .then( (responseData) => {
     if (responseData.data){
         responseData.data.map( (data) =>{
-            let img = ""+data.package_image;
-            
-            console.log(img)
             const packageContainer = document.createElement('div');
             packageContainer.setAttribute('id', data.package_id);
 
