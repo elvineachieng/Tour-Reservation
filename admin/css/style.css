@@ -155,6 +155,7 @@ body{
 }
 .package-body main section.heading{
     background-color: red !important;
+    padding-inline: 20% !important;
 }
 .package-body main section.createPackage {
     background-color: yellow !important;
