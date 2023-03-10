@@ -201,13 +201,11 @@ margin-bottom: 4% !important;
 
 .package-body main section.createPackage form div.btn-display{
     display: flex !important;
-}
-.package-body main section.createPackage form div.btn-display:last-child{
-    margin-left: .4rem;
+    justify-content: space-around;
 }
 .package-body main section.createPackage form div.btn-display *{
     display: block !important;
-    width: 40% !important;
+    width: 35% !important;
     height: 5vh !important;
 }
 
