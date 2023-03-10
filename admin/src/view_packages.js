@@ -9,6 +9,7 @@ fetch('http://localhost:3500/admin/view_packages', {
         responseData.data.map( (data) =>{
             const packageContainer = document.createElement('div');
             packageContainer.setAttribute('id', data.package_id);
+            packageContainer.classList.add('package-card');
 
             const packageImage = document.createElement('img');
             packageImage.setAttribute('src', `http://localhost:3500/admin/view_packages/${data.package_image}`);
