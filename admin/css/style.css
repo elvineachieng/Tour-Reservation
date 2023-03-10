@@ -237,7 +237,8 @@ background-color: hsl(240, 63%, 45%);
     padding: 1.6% !important;
 }
 .body-view-package main section.view_packages{
-
+    display: flex !important;
+    flex-direction: column !important;
 }
 
 
