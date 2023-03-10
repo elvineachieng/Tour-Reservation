@@ -50,6 +50,8 @@ fetch('http://localhost:3500/admin/view_packages', {
             root.appendChild(packageContainer)
         });
         console.log(responseData);
+    }else{
+        console.log(responseData.statusText);
     }
 })
 .catch ( (err) => {
