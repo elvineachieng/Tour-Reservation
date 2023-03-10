@@ -170,7 +170,7 @@ body{
 .package-body main section.createPackage form {
     background-color: red !important;
     width: 100% !important;
-    padding-left: 4% !important;
+    padding-left: 8% !important;
 }
 .package-body main section.createPackage form div.forgroup{
 margin-bottom: 4% !important;
