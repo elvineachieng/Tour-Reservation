@@ -169,7 +169,7 @@ body{
     align-items: center !important;
 }
 .package-body main section.createPackage form {
-    width: 100% !important;
+    width: 90% !important;
     padding-left: 8% !important;
 }
 .package-body main section.createPackage form div.forgroup{
