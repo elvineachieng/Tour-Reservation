@@ -199,6 +199,12 @@ margin-bottom: 4% !important;
     color: #fff !important;
 }
 
+.package-body main section.createPackage form div.btn-display{
+    display: flex;
+}
+.package-body main section.createPackage form div.btn-display *{
+    display: block;
+}
 
 @media (min-width: 900px){
     .login-main main .login{
