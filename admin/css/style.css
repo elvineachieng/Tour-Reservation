@@ -189,7 +189,8 @@ margin-bottom: 4% !important;
     width: 90%;
     border: none !important;
     outline: none !important;
-    padding-inline: 2.4rem !important;
+    padding-inline: .4rem !important;
+    font-size: 1.6rem;
 }
 
 
